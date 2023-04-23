@@ -10,15 +10,15 @@ let package = Package(
     products: [
         .library(
             name: "GoogleCastSDK-beta",
-            type: .static,
+            type: .dynamic,
             targets: ["GoogleCastSDK-beta"]
         )
     ],
     targets: [
         .binaryTarget(
             name: "GoogleCastSDK-beta",
-            url: "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.7.1_static_beta.xcframework.zip",
-            checksum: "7dbc206f6cf243694d4670d4e9ee4d03070781fd12b1e831b5a4f586d6c55f86"
+            url: "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.7.1_dynamic_beta.xcframework.zip",
+            checksum: "e2b832f1f7b63ea25edf91fefc244b76f26975bc22ef878fbf1f79cfba441c7c"
         )
     ]
 )
