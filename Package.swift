@@ -10,7 +10,6 @@ let package = Package(
     products: [
         .library(
             name: "GoogleCastSDK-beta",
-            type: .dynamic,
             targets: ["GoogleCastSDK-beta"]
         )
     ],
