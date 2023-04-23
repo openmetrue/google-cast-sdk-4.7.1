@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
     spec.frameworks = "Accelerate", "AudioToolbox", "AVFoundation", "CFNetwork", "CoreData", "CoreGraphics", "CoreMedia", "CoreText", "Foundation", "MediaAccessibility", "MediaPlayer", "QuartzCore", "Security", "SystemConfiguration", "UIKit"
     spec.libraries  = "c++"
 
-    spec.dependency "Protobuf", "~> 3.13"
+    spec.dependency "Protobuf", "~> 3.0"
 
     spec.requires_arc = true
     spec.static_framework = true
