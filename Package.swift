@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "GoogleCastSDK-beta",
+            type: .static,
             targets: ["GoogleCastSDK-beta"]
         )
     ],
