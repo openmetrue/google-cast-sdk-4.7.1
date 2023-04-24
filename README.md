@@ -1,5 +1,7 @@
 # Google cast 4.7.1 beta with guest mode
 
+For more than a year, google cast with support for Apple M1 is still in beta and is not available through pods and spm. To avoid problems with manually added xcframework, you can try this solution.
+
 ## Installation
 
 ### CocoaPods
