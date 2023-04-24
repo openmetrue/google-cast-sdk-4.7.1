@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name         = "google-cast-sdk"
+    spec.name         = "google-cast-sdk-beta"
     spec.version      = "4.7.1"
     spec.summary      = "Framework for casting content to Google Cast devices (dynamically linked version)"
     spec.description  = <<-DESC
