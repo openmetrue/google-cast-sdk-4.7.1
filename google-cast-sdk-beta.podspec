@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
     spec.homepage     = "https://developers.google.com/cast/"
     spec.license      = { :type => "Commercial", :text => "https://developers.google.com/terms/" }
     spec.authors      = "Google Inc."
-    spec.source       = { :http => "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.7.1_dynamic_beta.xcframework.zip" }
+    spec.source       = { git: 'git@github.com:openmetrue/google-cast-sdk-4.7.1.git' }
     spec.module_map   = "GoogleCastSDK-ios-4.7.1_dynamic_beta/GoogleCast.framework/Modules/module.modulemap"
     spec.ios.deployment_target = "12.0"
     spec.requires_arc = true
